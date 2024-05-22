@@ -1,0 +1,41 @@
+﻿Сборка начата 10.05.2024 20:19:31.
+Уровень детализации журнала: Normal.     1>Проект "D:\labs\asd\lab66\CloseHash\CloseHash.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "x64\Debug\CloseHash.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\CloseHash.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt hash.cpp
+         hash.cpp
+     1>D:\labs\asd\lab66\CloseHash\hash.h(10,1): warning C4005: INT_MAX: изменение макроопределения
+         (компиляция исходного файла "hash.cpp")
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\limits.h(36,1):
+         см. предыдущее определение "INT_MAX"
+         
+     1>D:\labs\asd\lab66\CloseHash\hash.cpp(20,23): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:\labs\asd\lab66\CloseHash\hash.cpp(37,23): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:\labs\asd\lab66\CloseHash\hash.cpp(51,23): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+       Link:
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\labs\asd\lab66\x64\Debug\CloseHash.exe" /INCREMENTAL /ILK:"x64\Debug\CloseHash.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\labs\asd\lab66\x64\Debug\CloseHash.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\labs\asd\lab66\x64\Debug\CloseHash.lib" /MACHINE:X64 x64\Debug\hash.obj
+         x64\Debug\hash.obj
+         x64\Debug\Table.obj
+         CloseHash.vcxproj -> D:\labs\asd\lab66\x64\Debug\CloseHash.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\CloseHash.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\CloseHash.tlog\CloseHash.lastbuildstate".
+     1>Сборка проекта "D:\labs\asd\lab66\CloseHash\CloseHash.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\labs\asd\lab66\CloseHash\CloseHash.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\labs\asd\lab66\CloseHash\hash.h(10,1): warning C4005: INT_MAX: изменение макроопределения
+         D:\labs\asd\lab66\CloseHash\hash.cpp(20,23): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+         D:\labs\asd\lab66\CloseHash\hash.cpp(37,23): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+         D:\labs\asd\lab66\CloseHash\hash.cpp(51,23): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+
+    Предупреждений: 4
+    Ошибок: 0
+
+Прошло времени 00:00:01.50

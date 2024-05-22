@@ -1,4 +1,4 @@
-﻿Сборка начата 15.03.2024 22:19:57.
+﻿Сборка начата 16.03.2024 14:45:15.
 Уровень детализации журнала: Normal.     1>Проект "D:\labs\asd\lab5\lab5\lab5.vcxproj" в узле 2 (целевые объекты Build).
      1>PrepareForBuild:
          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
@@ -8,7 +8,6 @@
        ClCompile:
          D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt stack.cpp
          stack.cpp
-     1>D:\labs\asd\lab5\lab5\stack.cpp(18,6): warning C4101: choice: неиспользованная локальная переменная
        Link:
          D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\labs\asd\lab5\x64\Debug\lab5.exe" /INCREMENTAL /ILK:"x64\Debug\lab5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\labs\asd\lab5\x64\Debug\lab5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\labs\asd\lab5\x64\Debug\lab5.lib" /MACHINE:X64 x64\Debug\stack.obj
          lab5.vcxproj -> D:\labs\asd\lab5\x64\Debug\lab5.exe
@@ -18,12 +17,7 @@
      1>Сборка проекта "D:\labs\asd\lab5\lab5\lab5.vcxproj" завершена (целевые объекты Build).
 
 Сборка успешно завершена.
-
-       "D:\labs\asd\lab5\lab5\lab5.vcxproj" (целевой объект Build ) (1) ->
-       (Целевой объект ClCompile) -> 
-         D:\labs\asd\lab5\lab5\stack.cpp(18,6): warning C4101: choice: неиспользованная локальная переменная
-
-    Предупреждений: 1
+    Предупреждений: 0
     Ошибок: 0
 
-Прошло времени 00:00:01.53
+Прошло времени 00:00:02.28
